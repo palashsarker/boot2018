@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="14190" started-at="2018-05-07T00:00:47Z" finished-at="2018-05-07T00:01:01Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:TestRunner.TC01_Login@6a4f787b]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:TestRunner.TC02_login@685cb137]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Test" duration-ms="14190" started-at="2018-05-07T00:00:47Z" finished-at="2018-05-07T00:01:01Z">
+      <class name="TestRunner.TC01_Login">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:TestRunner.TC01_Login@6a4f787b]" name="setUpClass" is-config="true" duration-ms="208" started-at="2018-05-06T20:00:47Z" finished-at="2018-05-06T20:00:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:TestRunner.TC01_Login@6a4f787b]" name="feature" duration-ms="7752" started-at="2018-05-06T20:00:47Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2018-05-06T20:00:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin Login to HRM home page]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:TestRunner.TC01_Login@6a4f787b]" name="tearDownClass" is-config="true" duration-ms="3" started-at="2018-05-06T20:00:55Z" finished-at="2018-05-06T20:00:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- TestRunner.TC01_Login -->
+      <class name="TestRunner.TC02_login">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:TestRunner.TC02_login@685cb137]" name="setUpClass" is-config="true" duration-ms="15" started-at="2018-05-06T20:00:55Z" finished-at="2018-05-06T20:00:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:TestRunner.TC02_login@685cb137]" name="feature" duration-ms="6125" started-at="2018-05-06T20:00:55Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2018-05-06T20:01:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AdminLogin to HRM home page]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:TestRunner.TC02_login@685cb137]" name="tearDownClass" is-config="true" duration-ms="2" started-at="2018-05-06T20:01:01Z" finished-at="2018-05-06T20:01:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- TestRunner.TC02_login -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
